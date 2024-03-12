@@ -1,0 +1,18 @@
+name = "fitapi"
+compatibility_date = "2023-12-01"
+
+ [vars]
+ AUTH_TOKEN="1234567"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+ [[d1_databases]]
+ binding = "DB"
+ database_name = "srdb"
+ database_id = "371c635b-5ce0-4a00-85dc-2a5c6f6c123a"
